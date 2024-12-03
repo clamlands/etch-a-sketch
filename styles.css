@@ -1,6 +1,4 @@
 .square{
-    border-left: 2px solid black;
-    border-top: 2px solid black;
     width: 100%;
 }
 
@@ -12,8 +10,7 @@
 }
 
 #gridContainer{
-    border-right: 2px solid black;
-    border-bottom: 2px solid black;
+    border: 2px solid black;
     width: 90vw;
     height: 90vw;
     display: flex;
