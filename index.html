@@ -9,12 +9,26 @@
     <script src="script.js" defer></script>
 </head>
 <body>
+    <h1>Virtual Etch-A-Sketch!</h1>
     <div class = "body">
-        <div class="slidecontainer">
-            <input type="range" min="2" max="100" value="50" class="slider" id="myRange">
-            <p>Value: <span id='slideValue'></span></p>
-          </div>
-        <div id="gridContainer"></div>
+        <div class="container">
+            <div class="inputs">
+                
+                <label for="blue"><input type="checkbox" id="blue" name="blue" value="blue">Blue</label>
+                
+                <label for="red"><input type="checkbox" id="red" name="red" value="red">Red</label>
+                
+                <label for="green"><input type="checkbox" id="green" name="green" value="green">Green</label>
+                
+                <label for="purple"><input type="checkbox" id="purple" name="purple" value="purple">Purple</label>
+            </div>
+            <div id="gridContainer"></div>
+            <div class="slidecontainer">
+                <input type="range" min="2" max="100" value="50" class="slider" id="myRange">
+                <p>Grid Size: <span id='slideValue'></span></p>
+              </div>
+        </div>
+
     </div>
     
 </body>
